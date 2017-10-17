@@ -3,7 +3,7 @@ html {
   font-family: "Lato", sans-serif;
   line-height: 1.5;
   background-color: #eee9de;
-  text-align: center;
+  display: inline-block;
 }
 
 *, *::before, *::after {
@@ -14,10 +14,18 @@ img {
   padding: 1em, 2em;
 }
 
+main {
+  color: #333;
+}
 h1 {
   margin-bottom: 1.5rem;
 }
 
-section {
+section div{
+  vertical-align: middle;
   width: 100%;
+}
+
+section {
+  text-align: left;
 }
