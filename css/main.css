@@ -1,13 +1,23 @@
 html {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-html {
+img {
+  padding: 1em, 2em;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+section {
+  width: 100%;
+  text-align: center;
   background-color: #eee9de;
-  font-family: "Lato", sans-serif;
-  line-height: 1.5;
 }
