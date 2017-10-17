@@ -12,20 +12,35 @@ html {
 
 img {
   padding: 1em, 2em;
+  display: inline-block;
 }
 
 main {
   color: #333;
 }
+
 h1 {
   margin-bottom: 1.5rem;
 }
 
-section div{
+section div {
   vertical-align: middle;
   width: 100%;
 }
 
 section {
   text-align: left;
+}
+
+a:hover {
+  padding: 1em;
+  border-radius: 2em;
+  display: inline-block;
+  background-color: #666;
+}
+
+.btn {
+  background-color: #eee9de;
+  padding: 1em;
+  border-radius: 1em;
 }
